@@ -32,7 +32,7 @@
 				</p>
 				<form action="https://formsubmit.co/marketing@rsx.skule.ca" method="POST">
 					<div class="p-4">
-						<div class="flex md:flex-row flex-col gap-4 mb-4">
+						<div class="mb-4 flex flex-col gap-4 md:flex-row">
 							<div class="w-full">
 								<label for="name" class="mb-1 block font-poly-mono text-sm uppercase">Name</label>
 								<input
@@ -87,7 +87,12 @@
 						</div>
 
 						<input type="hidden" name="_subject" value="RSX Contact Form Submission" />
-						<input type="hidden" name="_next" value="https://rsx-website.marketing-518.workers.dev/contact?success=true" /> <!-- temp address while dns is being updated-->
+						<input
+							type="hidden"
+							name="_next"
+							value="https://rsx-website.marketing-518.workers.dev/contact?success=true"
+						/>
+						<!-- temp address while dns is being updated-->
 
 						<button
 							type="submit"

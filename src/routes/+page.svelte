@@ -340,7 +340,10 @@
 	<div id="sponsors" class="relative mt-16 overflow-hidden">
 		<h3 class="mb-2 text-center font-poly-mono">SUPPORTED BY</h3>
 		<hr class="" />
-		<div bind:this={sponsorsContainer} class="sponsors-scroller gap-8 py-4">
+		<div
+			bind:this={sponsorsContainer}
+			class="sponsors-scroller gap-6 py-4 max-md:**:max-h-8 max-md:**:w-auto md:gap-8"
+		>
 			<img src={solidworks} alt="solidworks" class="h-14 max-w-40 object-scale-down" />
 			<img src={ansys} alt="ansys" class="h-14 max-w-40 object-scale-down" />
 			<img src={altium} alt="altium" class="h-14 max-w-40 object-scale-down" />
@@ -378,11 +381,12 @@
 				students, we've challenged students to innovate and push boundaries.
 			</p>
 			<p>
-				We fully design, build, and test a Mars rover and aerial payload each year, taking our projects from concept to competition-ready systems in only ~8 months.
+				We fully design, build, and test a Mars rover and aerial payload each year, taking our
+				projects from concept to competition-ready systems in only ~8 months.
 			</p>
 			<p>
-				We encourage students to learn about, experiment with, and develop skills in
-				engineering, and promoting growth through hands-on experience.
+				We encourage students to learn about, experiment with, and develop skills in engineering,
+				and promoting growth through hands-on experience.
 			</p>
 		</div>
 	</div>
