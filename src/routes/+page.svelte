@@ -21,6 +21,9 @@
 	import pcbway from '$lib/assets/images/sponsors/pcbway.png?enhanced';
 	import digikey from '$lib/assets/images/sponsors/digikey.svg';
 	import engsoc from '$lib/assets/images/sponsors/eng_soc.png?enhanced';
+	import misumi from '$lib/assets/images/sponsors/misumi.png?enhanced';
+	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
+	import laifual from '$lib/assets/images/sponsors/laifual.png?enhanced';
 
 	import innovate from '$lib/assets/images/landing page/innovate.png?enhanced';
 	import educate from '$lib/assets/images/landing page/educate.png?enhanced';
@@ -365,9 +368,12 @@
 			<enhanced:img src={wurth} alt="wurth" class="h-14 max-w-40 object-scale-down" />
 			<enhanced:img src={talmolder} alt="talmolder" class="h-14 max-w-45 object-scale-down" />
 			<enhanced:img src={utias} alt="utias" class="h-14 w-auto object-scale-down" />
+			<enhanced:img src={laifual} alt="laifual" class="h-6 w-auto object-scale-down" />
 			<enhanced:img src={polymaker} alt="polymaker" class="h-11 w-auto object-scale-down" />
 			<enhanced:img src={pcbway} alt="pcbway" class="h-14 w-auto object-scale-down" />
 			<img src={digikey} alt="digikey" class="h-9 object-scale-down" />
+			<enhanced:img src={electromate} alt="electromate" class="h-14 w-auto object-scale-down" />
+			<enhanced:img src={misumi} alt="misumi" class="h-8 w-auto object-scale-down" />
 		</div>
 		<hr class="" />
 	</div>
