@@ -1,0 +1,83 @@
+@import 'tailwindcss';
+@plugin "tailwindcss-debug-screens";
+
+@font-face {
+	font-family: 'PolySans';
+	font-style: normal;
+	font-weight: 700;
+	src: url('$lib/assets/fonts/PolySans-Median.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'PolySans-Mono';
+	font-style: normal;
+	font-weight: 400;
+	src: url('$lib/assets/fonts/PolySans-NeutralMono.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'PolySans-Mono';
+	font-style: normal;
+	font-weight: 700;
+	src: url('$lib/assets/fonts/PolySans-MedianMono.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Shapiro';
+	font-style: normal;
+	font-weight: 700;
+	src: url('$lib/assets/fonts/ShapiroModified-Wide65.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Shapiro';
+	font-style: normal;
+	font-weight: 400;
+	src: url('$lib/assets/fonts/Shapiro-55Middle.woff2') format('woff2');
+}
+
+@theme {
+	--font-shapiro: 'Shapiro', sans-serif;
+	--font-poly: 'PolySans', sans-serif;
+	--font-poly-mono: 'PolySans-Mono', sans-serif;
+	--color-rsx-silver: #78787f;
+	--color-rsx-red: #f20c06;
+	--color-rsx-orange: #ff5c00;
+	--color-rsx-green: #b5f70d;
+	--color-rsx-teal: #069ac1;
+	--color-rsx-blue: #007bff;
+	--color-rsx-violet: #6b27fd;
+	--color-rsx-pink: #ff3993;
+}
+
+/* Fade mask at top/bottom for motion-blur-like effect */
+.rolodex-mask {
+	-webkit-mask-image: linear-gradient(
+		to bottom,
+		transparent 0%,
+		black 15%,
+		black 85%,
+		transparent 100%
+	);
+	mask-image: linear-gradient(to bottom, transparent 0%, black 15%, black 85%, transparent 100%);
+}
+
+.sponsors-scroller {
+	display: flex;
+	align-items: center;
+	width: max-content;
+	will-change: transform;
+}
+
+.sponsors-scroller img {
+	filter: invert(1) grayscale(100%) brightness(1.5);
+}
+
+.sponsors-scroller img.no-filter {
+	filter: none;
+}
+
+html,
+body {
+	background-color: #000;
+}
