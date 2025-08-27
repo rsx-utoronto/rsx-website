@@ -20,6 +20,7 @@
 	import polymaker from '$lib/assets/images/sponsors/polymaker.png?enhanced';
 	import pcbway from '$lib/assets/images/sponsors/pcbway.png?enhanced';
 	import digikey from '$lib/assets/images/sponsors/digikey.svg';
+	import engsoc from '$lib/assets/images/sponsors/eng_soc.png?enhanced';
 
 	import innovate from '$lib/assets/images/landing page/innovate.png?enhanced';
 	import educate from '$lib/assets/images/landing page/educate.png?enhanced';
@@ -101,27 +102,41 @@
 		// Ease-in-out snapping when not actively scrolling
 		if (!isActivelyScrolling) {
 			const clamped = Math.max(0, Math.min(words.length, scrollProgress));
-			const target = Math.round(clamped);
-			if (!snapping) {
-				if (Math.abs(displayProgress - target) > 0.0005) {
-					snapping = true;
-					snapFrom = displayProgress;
-					snapTo = target;
-					snapStart = ts;
-				}
-			} else {
-				const t = Math.min(1, (ts - snapStart) / snapDuration);
-				const eased = easeInOutCubic(t);
-				displayProgress = snapFrom + (snapTo - snapFrom) * eased;
-				if (t >= 1) {
-					displayProgress = snapTo;
-					snapping = false;
-					// If we snapped to the wordmark, lock in final state
-					if (snapTo === words.length) {
-						scrollProgress = words.length;
-						wordmarkVisible = true;
+			const fractional = clamped % 1;
+			let target: number | null = null;
+			// Only snap when we're close to a boundary for subtle snapping
+			if (fractional < 0.15) {
+				target = Math.floor(clamped);
+			} else if (fractional > 0.85) {
+				target = Math.ceil(clamped);
+			}
+
+			if (target !== null) {
+				if (!snapping) {
+					if (Math.abs(displayProgress - target) > 0.0005) {
+						snapping = true;
+						snapFrom = displayProgress;
+						snapTo = target;
+						snapStart = ts;
+					}
+				} else {
+					const t = Math.min(1, (ts - snapStart) / snapDuration);
+					const eased = easeInOutCubic(t);
+					displayProgress = snapFrom + (snapTo - snapFrom) * eased;
+					if (t >= 1) {
+						displayProgress = snapTo;
+						snapping = false;
+						// If we snapped to the wordmark, lock in final state
+						if (snapTo === words.length) {
+							scrollProgress = words.length;
+							wordmarkVisible = true;
+						}
 					}
 				}
+			} else {
+				// Not near a boundary: disable gravity-like pull; follow the current position
+				displayProgress = clamped;
+				snapping = false;
 			}
 		} else {
 			// Follow user input directly while scrolling or after reveal
@@ -169,7 +184,7 @@
 		return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 	}
 
-	const words = ['innovators', 'educators', 'contendors', 'collaborators', 'dreamers', 'builders'];
+	const words = ['innovators', 'educators', 'contenders', 'collaborators', 'dreamers', 'builders'];
 	const PIXELS_PER_WORD = 120; // pixels of scroll needed to advance one full word
 	const TOTAL_SCROLL_NEEDED = words.length * PIXELS_PER_WORD;
 
@@ -307,7 +322,7 @@
 				<p class="text-md font-shapiro">
 					Robotics for Space Exploration (RSX) is the University of Toronto's Faculty of Applied
 					Science and Engineering affiliated design team aimed at investigating the use of robotics
-					within and throughout space
+					within and throughout space.
 				</p>
 				<a
 					href="https://docs.google.com/forms/d/e/1FAIpQLSed28HJaX7QlluC7SZq7l7ynV5yA8hmCcd84v-bq0q3YqyX8Q/viewform?usp=dialog"
@@ -332,6 +347,7 @@
 			<enhanced:img src={cpsif} alt="cpsif" class="h-14 w-auto object-scale-down" />
 			<enhanced:img src={percepio} alt="percepio" class="h-14 max-w-50 object-scale-down" />
 			<enhanced:img src={samadhin} alt="samadhin" class="no-filter h-14 w-auto object-scale-down" />
+			<enhanced:img src={engsoc} alt="engsoc" class="h-14 max-w-70 object-scale-down" />
 			<enhanced:img src={nordspace} alt="nordspace" class="h-14 max-w-40 object-scale-down" />
 			<enhanced:img src={protocase} alt="protocase" class="h-14 w-auto object-scale-down" />
 			<enhanced:img src={calian} alt="calian" class="h-14 max-w-40 object-scale-down" />
@@ -356,18 +372,18 @@
 	<div class="mt-32">
 		<hr class="mb-1 w-75" />
 		<h3 class="mb-6 font-poly-mono text-lg">ABOUT</h3>
-		<div class="grid gap-12 font-shapiro md:grid-cols-3">
-			<p>
-				We compete in international competitions, such as the University Rover Challenge, European
-				Rover Challenge, Canadian International Rover Challenge, and CANSAT Competition
-			</p>
+		<div class="grid gap-16 md:grid-cols-3">
 			<p>
 				Since being formed in 2013 by passionate roboticists, space enthusiasts, and undergraduate
 				students, we've challenged students to innovate and push boundaries.
 			</p>
 			<p>
+				We compete in international competitions, such as the University Rover Challenge, European
+				Rover Challenge, Canadian International Rover Challenge, and CANSAT Competition.
+			</p>
+			<p>
 				We encourage students to learn about, experiment with, and develop proficiency in
-				engineering technology, and promote growth through hands-on experience
+				engineering technology, and promote growth through hands-on experience.
 			</p>
 		</div>
 	</div>

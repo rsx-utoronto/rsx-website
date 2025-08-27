@@ -41,9 +41,9 @@
 		<div class="flex w-full flex-col gap-16">
 			<p class="uppercase">
 				We love to show our passion for the space industry by attending conferences, expos, and
-				other events. Through our outreach activities in the Greater Toronto Area, we hope to pay
-				the deed forward and help spark a passion for robotics and space engineering in elementary
-				and high school students.
+				other events. Through our outreach activities in the Greater Toronto Area, we hope to give
+				back to the community and help spark a passion for robotics and space engineering in
+				elementary and high school students.
 			</p>
 		</div>
 		<div class="w-full">
@@ -67,7 +67,7 @@
 				{ src: event_skulefest_3, alt: 'SkuleF!est 2024' }
 			]}
 			title="SkuleF!est 2024"
-			description="Part of the Engineering Frosh events at U of T involves SkuleF!est, a carnival event involving the engineering design teams as a chance to introduce new students to the school on an informal basis. We gave students the challenge of pushing a ball into a goal with the rover! It was great to see students interact with the rover and talk about their passion for space robotics."
+			description="Part of the Engineering Frosh events at UofT involves SkuleF!est, a carnival event involving the engineering design teams as a chance to introduce new students to the school on an informal basis. We gave students the challenge of pushing a ball into a goal with the rover! It was great to see students interact with the rover and talk about their passion for space robotics."
 		/>
 		<OutreachCard
 			images={[
@@ -76,7 +76,16 @@
 				{ src: event_skule150_gala_3, alt: 'Skule 150 Gala' }
 			]}
 			title="Skule 150 Gala"
-			description="In March 2023 we attended the University of Toronto's Skule 150 Gala where we celebrated 150 years of Engineering at U of T! It was great to meet past alumni, to connect with our current students, and to promote our team within our faculty."
+			description="In March 2023 we attended the University of Toronto's Skule 150 Gala where we celebrated 150 years of Engineering at UofT! It was great to meet past alumni, to connect with our current students, and to promote our team within our faculty."
+		/>
+		<OutreachCard
+			images={[
+				{ src: event_can_space_conf, alt: 'Canadian Space Exploration Conference' },
+				{ src: event_can_space_conf_2, alt: 'Canadian Space Exploration Conference' },
+				{ src: event_can_space_conf_3, alt: 'Canadian Space Exploration Conference' }
+			]}
+			title="Canadian Space Conference 2023"
+			description="In January we showcased our team at Canada's largest Space Conference hosted in Montreal. We look forward to attending even more conferences in the future and continuing to with connect passionate students & industry professionals who can provide insights into the new branches and technologies in this exciting ever-changing industry!"
 		/>
 		<OutreachCard
 			images={[
@@ -90,16 +99,7 @@
 		<OutreachCard
 			images={[{ src: event_campus_day, alt: 'Campus Day' }]}
 			title="Fall Campus Day"
-			description="We love to participate in U of T Engineering events and show our community what we're all about! From prospective engineering students to curious individuals, getting people excited about space exploration is what we're all about!"
-		/>
-		<OutreachCard
-			images={[
-				{ src: event_can_space_conf, alt: 'Canadian Space Exploration Conference' },
-				{ src: event_can_space_conf_2, alt: 'Canadian Space Exploration Conference' },
-				{ src: event_can_space_conf_3, alt: 'Canadian Space Exploration Conference' }
-			]}
-			title="Canadian Space Conference 2023"
-			description="In January we showcased our team at Canada's largest Space Conference hosted in Montreal. We look forward to attending even more conferences in the future and continuing to with connect passionate students & industry professionals who can provide insights into the new branches and technologies in this exciting ever-changing industry!"
+			description="RSX actively participates in UofT Engineering events to engage with our community and showcase our work. We connect with prospective engineering students and community members to share our passion for space exploration and inspire interest in robotics and aerospace technologies."
 		/>
 		<OutreachCard
 			images={[

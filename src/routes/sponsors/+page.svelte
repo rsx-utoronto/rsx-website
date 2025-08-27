@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Icon from '@iconify/svelte';
-	import sponsorship_package from '$lib/assets/pdfs/Sponsorship Package 2024-2025.pdf';
+	import sponsorship_package from '$lib/assets/pdfs/RSX Sponsorship Package 2025-2026.pdf';
 
 	import solidworks from '$lib/assets/images/sponsors/solidworks.svg';
 	import ansys from '$lib/assets/images/sponsors/ansys.svg';
@@ -21,6 +21,7 @@
 	import polymaker from '$lib/assets/images/sponsors/polymaker.png?enhanced';
 	import pcbway from '$lib/assets/images/sponsors/pcbway.png?enhanced';
 	import digikey from '$lib/assets/images/sponsors/digikey.svg';
+	import engsoc from '$lib/assets/images/sponsors/eng_soc.png?enhanced';
 </script>
 
 <main class="mx-0 p-8 font-shapiro text-white md:mx-4 xl:mx-[3%] 2xl:mx-auto 2xl:max-w-350">
@@ -32,7 +33,7 @@
 				further, and give students more opportunities to learn about engineering in a hands-on
 				environment.
 			</p>
-			<p>The RSX team thanks all of our 2024/2025 Sponsors for their invaluable support.</p>
+			<p>The RSX team thanks all of our sponsors for their invaluable support.</p>
 		</div>
 
 		<div class="flex flex-col border font-shapiro">
@@ -41,7 +42,7 @@
 			<div class="flex h-full flex-col justify-between">
 				<p class="m-4 md:text-lg">
 					If your organization aligns with our values of empowering young space robotics
-					enthusiasts, we would love to have your support! In our 2024/2025 RSX Sponsorship package,
+					enthusiasts, we would love to have your support! In our 2025/2026 RSX Sponsorship package,
 					you can find past achievements and our sponsor benefit tiers. Don't hesitate to reach out
 					for more details.
 				</p>
@@ -49,10 +50,10 @@
 					<p class="mx-auto my-3 pl-4 text-center uppercase">we thank you for your interest</p>
 					<a
 						href={sponsorship_package}
-						download="RSX Sponsorship Package 2024-2025.pdf"
+						download="RSX Sponsorship Package 2025-2026.pdf"
 						class="flex w-full cursor-pointer flex-row items-center justify-center gap-2 border-t px-[2%] py-1 py-3 text-center font-poly-mono hover:bg-white hover:text-black md:w-3/5 md:border-l md:px-[5%]"
 					>
-						<p class="">2024/2025 SPONSORSHIP PACKAGE</p>
+						<p class="">2025/2026 SPONSORSHIP PACKAGE</p>
 						<Icon icon="material-symbols:arrow-outward" class="mt-0.5 text-xl" />
 					</a>
 				</div>
@@ -63,7 +64,7 @@
 	<div class="mt-16 flex flex-col gap-4 bg-white p-6 font-shapiro text-black">
 		<h3 class="text-3xl font-bold">PLATINUM TIER SPONSORS</h3>
 		<div
-			class="mx-10 flex flex-col items-center justify-between gap-4 *:object-contain md:flex-row md:flex-wrap md:gap-8"
+			class="mx-auto flex flex-col items-center justify-between gap-4 *:object-contain md:flex-row md:flex-wrap md:gap-8"
 		>
 			<img src={solidworks} alt="solidworks" class="h-14 max-w-40 object-scale-down" />
 			<img src={ansys} alt="ansys" class="h-14 max-w-40 object-scale-down" />
@@ -71,6 +72,7 @@
 			<enhanced:img src={cpsif} alt="cpsif" class="h-14 w-auto object-scale-down" />
 			<enhanced:img src={percepio} alt="percepio" class="h-14 max-w-50 object-scale-down" />
 			<enhanced:img src={samadhin} alt="samadhin" class="no-filter h-14 w-auto object-scale-down" />
+			<enhanced:img src={engsoc} alt="engsoc" class="h-14 max-w-50 object-scale-down" />
 		</div>
 	</div>
 
