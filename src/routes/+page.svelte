@@ -378,12 +378,11 @@
 				students, we've challenged students to innovate and push boundaries.
 			</p>
 			<p>
-				We compete in international competitions, such as the University Rover Challenge, European
-				Rover Challenge, Canadian International Rover Challenge, and CANSAT Competition.
+				We fully design, build, and test a Mars rover and aerial payload each year, taking our projects from concept to competition-ready systems in only ~8 months.
 			</p>
 			<p>
-				We encourage students to learn about, experiment with, and develop proficiency in
-				engineering technology, and promote growth through hands-on experience.
+				We encourage students to learn about, experiment with, and develop skills in
+				engineering, and promoting growth through hands-on experience.
 			</p>
 		</div>
 	</div>
