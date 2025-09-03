@@ -6,6 +6,7 @@
 	import science from '$lib/assets/images/subteams/science.png?enhanced';
 	import marketing from '$lib/assets/images/subteams/marketing.png?enhanced';
 	import electrical from '$lib/assets/images/subteams/electrical.png?enhanced';
+	import drone from '$lib/assets/images/subteams/drone.png?enhanced';
 
 	import SubteamCard from '$lib/components/SubteamCard.svelte';
 </script>
@@ -83,7 +84,7 @@
 			slides={[
 				'The Science Subteam focuses on any payload-specific competition tasks. This varies from very biology-specific tasks (i.e. analyzing soil samples for life detection) and geology-specific tasks (i.e. identifying and dating rocks) to engineering-specific tasks like building a dirt collecting system that minimizes cross-contamination.',
 				[
-					'CAD 3D modeling software - Fusion360',
+					'CAD 3D modeling software - Fusion360, SolidWorks',
 					'CAD circuit software - KiCad',
 					'Research - Extraterrestrial geology, Astrobiology, Life detection',
 					'Instrumentation and Experimental Design - In-Situ wet lab, Chemical analysis, Fluorescence techniques',
@@ -116,6 +117,21 @@
 					'CAD circuit software - KiCad, Altium',
 					'PCB design and manufacturing',
 					'Soldering',
+					'Bench-Top Skills (Multimeter, Oscilloscope, Proto-boarding)'
+				]
+			]}
+		/>
+		<SubteamCard
+			imageSrc={drone}
+			imageAlt="drone"
+			title="DRONE"
+			slides={[
+				'The drone team is currently working on building multiple drones that will support the rover by scouting the area during competitions, as well as supporting Aerial’s drop testing plan.',
+				'As a drone member, you can expect to be part of a smaller subteam, and will be involved in designing, building, and testing the drones.',
+				[
+					'SolidWorks',
+					'Soldering',
+					'Computer vision',
 					'Bench-Top Skills (Multimeter, Oscilloscope, Proto-boarding)'
 				]
 			]}

@@ -35,7 +35,7 @@ npm run lint
 
 ```bash
 npm run build
-npx wrangler deploy
+npx wrangler pages deploy
 ```
 
 Configuration is in `wrangler.jsonc`; the Cloudflare adapter outputs to `.svelte-kit/cloudflare/`.

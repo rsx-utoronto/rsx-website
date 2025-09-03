@@ -15,7 +15,7 @@
 	},
 	"devDependencies": {
 		"@iconify/svelte": "^5.0.1",
-		"@sveltejs/adapter-cloudflare": "^7.0.0",
+		"@sveltejs/adapter-cloudflare": "^7.2.3",
 		"@sveltejs/enhanced-img": "^0.8.1",
 		"@sveltejs/kit": "^2.22.0",
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
@@ -33,6 +33,7 @@
 		"wrangler": "^4.33.0"
 	},
 	"dependencies": {
-		"@cloudflare/workerd-darwin-arm64": "^1.20250822.0"
+		"@cloudflare/workerd-darwin-arm64": "^1.20250822.0",
+		"create-cloudflare": "^2.51.2"
 	}
 }
