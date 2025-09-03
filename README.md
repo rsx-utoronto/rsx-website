@@ -31,7 +31,7 @@ npm run format
 npm run lint
 ```
 
-### Deploy (Cloudflare Workers)
+### Deploy (Cloudflare Pages)
 
 ```bash
 npm run build
