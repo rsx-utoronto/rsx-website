@@ -30,7 +30,7 @@
 						class=" underline">Instagram</a
 					>.
 				</p>
-				<form action="https://formsubmit.co/marketing@rsx.skule.ca" method="POST">
+				<form action="https://formsubmit.co/rsx.utoronto@gmail.com" method="POST">
 					<div class="p-4">
 						<div class="mb-4 flex flex-col gap-4 md:flex-row">
 							<div class="w-full">
