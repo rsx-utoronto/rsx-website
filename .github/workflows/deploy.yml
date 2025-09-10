@@ -42,4 +42,4 @@ jobs:
             cd ${{ secrets.DEPLOY_PATH }}
             git pull
             npm ci --omit=dev
-            pm2 reload rsx-website || pm2 start build/server.js --name rsx-website
+            pm2 reload rsx-website || pm2 start build/index.js --name rsx-website
