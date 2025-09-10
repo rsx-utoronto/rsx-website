@@ -22,12 +22,14 @@ export const handle: Handle = async ({ event, resolve }) => {
     headers.set('host', hostname);
 
     // Proxy the request to the external host
-    const response = await fetch(url.toString(), {
+    const init: RequestInit = {
       method: event.request.method,
       headers,
-      body: event.request.body,
-      duplex: "half"
-    });
+      body: event.request.body
+    };
+    // Node/undici requires duplex when streaming a request body; not part of DOM types
+    (init as any).duplex = 'half';
+    const response = await fetch(url.toString(), init);
 
     return response;
   }
