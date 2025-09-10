@@ -29,8 +29,8 @@ jobs:
           host: ${{ secrets.DEPLOY_HOST }}
           username: ${{ secrets.DEPLOY_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: "build/*"
-          target: "${{ secrets.DEPLOY_PATH }}/"
+          source: 'build/*'
+          target: '${{ secrets.DEPLOY_PATH }}/'
 
       - name: Restart app on server
         uses: appleboy/ssh-action@v1.2.2
