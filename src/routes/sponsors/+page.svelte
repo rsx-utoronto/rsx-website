@@ -68,13 +68,27 @@
 		<div
 			class="mx-auto flex flex-col items-center justify-between gap-4 *:object-contain md:flex-row md:flex-wrap md:gap-8"
 		>
-			<img src={solidworks} alt="solidworks" class="h-14 max-w-40 object-scale-down" />
-			<img src={ansys} alt="ansys" class="h-14 max-w-40 object-scale-down" />
-			<img src={altium} alt="altium" class="h-14 max-w-40 object-scale-down" />
-			<enhanced:img src={cpsif} alt="cpsif" class="h-14 w-auto object-scale-down" />
-			<enhanced:img src={percepio} alt="percepio" class="h-14 max-w-50 object-scale-down" />
-			<enhanced:img src={samadhin} alt="samadhin" class="no-filter h-14 w-auto object-scale-down" />
-			<enhanced:img src={engsoc} alt="engsoc" class="h-14 max-w-50 object-scale-down" />
+			<a href="https://www.solidworks.com/" target="_blank" aria-label="SolidWorks Website">
+				<img src={solidworks} alt="solidworks" class="h-14 max-w-40 object-scale-down" />
+			</a>
+			<a href="https://www.ansys.com/" target="_blank" aria-label="Ansys Website">
+				<img src={ansys} alt="ansys" class="h-14 max-w-40 object-scale-down" />
+			</a>
+			<a href="https://www.altium.com/" target="_blank" aria-label="Altium Website">
+				<img src={altium} alt="altium" class="h-14 max-w-40 object-scale-down" />
+			</a>
+			<a href="https://www.engineering.utoronto.ca/current-students/centralized-process-for-student-initiative-funding-cpsif/" target="_blank" aria-label="CPSIF Website">
+				<enhanced:img src={cpsif} alt="cpsif" class="h-14 w-auto object-scale-down" />
+			</a>
+			<a href="https://www.percepio.com/" target="_blank" aria-label="Percepio Website">
+				<enhanced:img src={percepio} alt="percepio" class="h-14 max-w-50 object-scale-down" />
+			</a>
+			<a href="https://www.samadhin.com/" target="_blank" aria-label="Samadhin Website">
+				<enhanced:img src={samadhin} alt="samadhin" class="no-filter h-14 w-auto object-scale-down" />
+			</a>
+			<a href="https://undergrad.engineering.utoronto.ca/skule-life/engineering-society/" target="_blank" aria-label="UofT EngSoc Website">
+				<enhanced:img src={engsoc} alt="engsoc" class="h-14 max-w-50 object-scale-down" />
+			</a>
 		</div>
 	</div>
 
@@ -83,11 +97,21 @@
 		<div
 			class="mx-10 flex flex-col items-center justify-between gap-4 *:object-contain md:flex-row md:flex-wrap md:gap-8"
 		>
+		<a href="https://www.nordspace.com/" target="_blank" aria-label="Nordspace Website">
 			<enhanced:img src={nordspace} alt="nordspace" class="h-14 max-w-40 object-scale-down" />
+		</a>
+		<a href="https://www.protocase.com/" target="_blank" aria-label="Protocase Website">
 			<enhanced:img src={protocase} alt="protocase" class="h-14 w-auto object-scale-down" />
+		</a>
+		<a href="https://www.calian.com/" target="_blank" aria-label="Calian Website">
 			<enhanced:img src={calian} alt="calian" class="h-14 max-w-40 object-scale-down" />
+		</a>
+		<a href="https://www.thorlabs.com/" target="_blank" aria-label="Thorlabs Website">
 			<img src={thorlabs} alt="thorlabs" class="h-14 max-w-40 object-scale-down" />
+		</a>
+		<a href="https://www.edmundoptics.ca/" target="_blank" aria-label="Edmund Optics Website">
 			<enhanced:img src={edmund} alt="edmund" class="h-14 max-w-45 object-scale-down" />
+		</a>
 		</div>
 	</div>
 
@@ -96,12 +120,24 @@
 		<div
 			class="mx-10 flex flex-col items-center justify-center gap-4 *:object-contain md:flex-row md:flex-wrap md:gap-10"
 		>
+		<a href="https://www.iclidar.com/" target="_blank" aria-label="Luxmodus Website">
 			<enhanced:img src={luxmodus} alt="luxmodus" class="h-14 max-w-40 object-scale-down" />
+		</a>
+		<a href="https://www.we-online.com/en" target="_blank" aria-label="Wurth Website">
 			<enhanced:img src={wurth} alt="wurth" class="h-14 max-w-40 object-scale-down" />
+		</a>
+		<a href="https://www.talmolder.com/" target="_blank" aria-label="Talmolder Website">
 			<enhanced:img src={talmolder} alt="talmolder" class="h-14 max-w-45 object-scale-down" />
+		</a>
+		<a href="https://www.utias.utoronto.ca/" target="_blank" aria-label="UTIAS Website">
 			<enhanced:img src={utias} alt="utias" class="h-14 w-auto object-scale-down" />
+		</a>
+		<a href="https://www.laifual.net/" target="_blank" aria-label="Laifual Website">
 			<enhanced:img src={laifual} alt="laifual" class="h-6 w-auto object-scale-down" />
+		</a>
+		<a href="https://us.misumi-ec.com/" target="_blank" aria-label="Misumi Website">
 			<enhanced:img src={misumi} alt="misumi" class="h-8 w-auto object-scale-down" />
+		</a>
 		</div>
 	</div>
 
@@ -110,10 +146,18 @@
 		<div
 			class="mx-10 flex flex-col items-center justify-center gap-4 md:flex-row md:flex-wrap md:gap-8"
 		>
+		<a href="https://www.polymaker.com/" target="_blank">
 			<enhanced:img src={polymaker} alt="polymaker" class="h-11 w-auto object-scale-down" />
+		</a>
+		<a href="https://www.pcbway.com/" target="_blank">
 			<enhanced:img src={pcbway} alt="pcbway" class="h-14 w-auto object-scale-down" />
+		</a>
+		<a href="https://www.digikey.ca/" target="_blank">
 			<img src={digikey} alt="digikey" class="h-9 object-scale-down" />
+		</a>
+		<a href="https://www.electromate.ca/" target="_blank">
 			<enhanced:img src={electromate} alt="electromate" class="h-14 w-auto object-scale-down" />
+		</a>
 		</div>
 	</div>
 </main>
