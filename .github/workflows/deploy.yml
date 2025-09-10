@@ -41,6 +41,5 @@ jobs:
           script: |
             cd ${{ secrets.DEPLOY_PATH }}
             git pull
-            nvm use node
             npm ci --omit=dev
             pm2 reload rsx-website || pm2 start build/server.js --name rsx-website
