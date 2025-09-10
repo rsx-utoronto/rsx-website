@@ -15,7 +15,6 @@
 	},
 	"devDependencies": {
 		"@iconify/svelte": "^5.0.1",
-		"@sveltejs/adapter-cloudflare": "^7.2.3",
 		"@sveltejs/adapter-node": "^5.3.1",
 		"@sveltejs/enhanced-img": "^0.8.1",
 		"@sveltejs/kit": "^2.22.0",
@@ -34,7 +33,5 @@
 		"wrangler": "^4.33.0"
 	},
 	"dependencies": {
-		"@cloudflare/workerd-darwin-arm64": "^1.20250822.0",
-		"create-cloudflare": "^2.51.2"
 	}
 }
