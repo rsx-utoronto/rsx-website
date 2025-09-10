@@ -13,7 +13,6 @@
 	import calian from '$lib/assets/images/sponsors/calian.png?enhanced';
 	import thorlabs from '$lib/assets/images/sponsors/thorlabs.svg';
 	import edmund from '$lib/assets/images/sponsors/edmund.png?enhanced';
-	import north_liberties from '$lib/assets/images/sponsors/north liberties.png?enhanced';
 	import luxmodus from '$lib/assets/images/sponsors/luxmodus.png?enhanced';
 	import wurth from '$lib/assets/images/sponsors/wurth.png?enhanced';
 	import talmolder from '$lib/assets/images/sponsors/talmolder.png?enhanced';
@@ -89,11 +88,6 @@
 			<enhanced:img src={calian} alt="calian" class="h-14 max-w-40 object-scale-down" />
 			<img src={thorlabs} alt="thorlabs" class="h-14 max-w-40 object-scale-down" />
 			<enhanced:img src={edmund} alt="edmund" class="h-14 max-w-45 object-scale-down" />
-			<enhanced:img
-				src={north_liberties}
-				alt="north_liberties"
-				class="h-14 max-w-50 object-scale-down"
-			/>
 		</div>
 	</div>
 
