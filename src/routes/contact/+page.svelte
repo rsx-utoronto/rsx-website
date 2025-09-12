@@ -87,11 +87,7 @@
 						</div>
 
 						<input type="hidden" name="_subject" value="RSX Contact Form Submission" />
-						<input
-							type="hidden"
-							name="_next"
-							value="https://rsx.skule.ca/contact?success=true"
-						/>
+						<input type="hidden" name="_next" value="https://rsx.skule.ca/contact?success=true" />
 						<!-- temp address while dns is being updated-->
 
 						<button
