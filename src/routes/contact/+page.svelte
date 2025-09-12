@@ -90,7 +90,7 @@
 						<input
 							type="hidden"
 							name="_next"
-							value="https://rsx-website.marketing-518.workers.dev/contact?success=true"
+							value="https://rsx.skule.ca/contact?success=true"
 						/>
 						<!-- temp address while dns is being updated-->
 

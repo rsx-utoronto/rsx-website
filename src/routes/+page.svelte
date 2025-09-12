@@ -23,6 +23,7 @@
 	import misumi from '$lib/assets/images/sponsors/misumi.png?enhanced';
 	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
 	import laifual from '$lib/assets/images/sponsors/laifual.png?enhanced';
+	import hakko from '$lib/assets/images/sponsors/hakko.png?enhanced';
 
 	import innovate from '$lib/assets/images/landing page/innovate.png?enhanced';
 	import educate from '$lib/assets/images/landing page/educate.png?enhanced';
@@ -363,11 +364,12 @@
 			<enhanced:img src={talmolder} alt="talmolder" class="h-14 max-w-45 object-scale-down" />
 			<enhanced:img src={utias} alt="utias" class="h-14 w-auto object-scale-down" />
 			<enhanced:img src={laifual} alt="laifual" class="h-6 w-auto object-scale-down" />
+			<enhanced:img src={misumi} alt="misumi" class="h-8 w-auto object-scale-down" />
 			<enhanced:img src={polymaker} alt="polymaker" class="h-11 w-auto object-scale-down" />
 			<enhanced:img src={pcbway} alt="pcbway" class="h-14 w-auto object-scale-down" />
 			<img src={digikey} alt="digikey" class="h-9 object-scale-down" />
-			<enhanced:img src={electromate} alt="electromate" class="h-14 w-auto object-scale-down" />
-			<enhanced:img src={misumi} alt="misumi" class="h-8 w-auto object-scale-down" />
+			<enhanced:img src={electromate} alt="electromate" class="h-16 w-auto object-scale-down" />
+			<enhanced:img src={hakko} alt="hakko" class="h-9 w-auto object-scale-down" />
 		</div>
 		<hr class="" />
 	</div>

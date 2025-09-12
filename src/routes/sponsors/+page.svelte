@@ -24,6 +24,7 @@
 	import misumi from '$lib/assets/images/sponsors/misumi.png?enhanced';
 	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
 	import laifual from '$lib/assets/images/sponsors/laifual.png?enhanced';
+	import hakko from '$lib/assets/images/sponsors/hakko.png?enhanced';
 </script>
 
 <main class="mx-0 p-8 font-shapiro text-white md:mx-4 xl:mx-[3%] 2xl:mx-auto 2xl:max-w-350">
@@ -155,8 +156,11 @@
 		<a href="https://www.digikey.ca/" target="_blank">
 			<img src={digikey} alt="digikey" class="h-9 object-scale-down" />
 		</a>
-		<a href="https://www.electromate.ca/" target="_blank">
-			<enhanced:img src={electromate} alt="electromate" class="h-14 w-auto object-scale-down" />
+		<a href="https://www.electromate.com/" target="_blank">
+			<enhanced:img src={electromate} alt="electromate" class="h-16 w-auto object-scale-down" />
+		</a>
+		<a href="https://www.hakko.com/" target="_blank">
+			<enhanced:img src={hakko} alt="hakko" class="h-9 w-auto object-scale-down" />
 		</a>
 		</div>
 	</div>
