@@ -327,14 +327,16 @@
 					Science and Engineering affiliated design team aimed at investigating the use of robotics
 					within and throughout space.
 				</p>
-				<a
-					href="https://docs.google.com/forms/d/e/1FAIpQLSed28HJaX7QlluC7SZq7l7ynV5yA8hmCcd84v-bq0q3YqyX8Q/viewform?usp=dialog"
+
+				<!-- hero/cta button -->
+				<!-- <a
+					href=""
 					target="_blank"
 					class="mt-10 flex w-fit cursor-pointer flex-row items-center gap-2 border border-rsx-red bg-rsx-red/30 p-2 px-6 font-poly-mono"
 				>
 					<h3 class="">JOIN RSX</h3>
 					<Icon icon="material-symbols:arrow-outward" class="mt-0.1 text-xl" />
-				</a>
+				</a> -->
 			</div>
 		</div>
 		<enhanced:img src={hero} alt="placeholder" class="mt-10 object-cover md:mt-0" />
