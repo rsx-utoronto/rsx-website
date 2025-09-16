@@ -25,6 +25,7 @@
 	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
 	import laifual from '$lib/assets/images/sponsors/laifual.png?enhanced';
 	import hakko from '$lib/assets/images/sponsors/hakko.png?enhanced';
+	import hackmd from '$lib/assets/images/sponsors/hackmd.png?enhanced';
 </script>
 
 <main class="mx-0 p-8 font-shapiro text-white md:mx-4 xl:mx-[3%] 2xl:mx-auto 2xl:max-w-350">
@@ -150,6 +151,9 @@
 			</a>
 			<a href="https://us.misumi-ec.com/" target="_blank" aria-label="Misumi Website">
 				<enhanced:img src={misumi} alt="misumi" class="h-8 w-auto object-scale-down" />
+			</a>
+			<a href="https://hackmd.io" target="_blank" aria-label="HackMD Website">
+				<enhanced:img src={hackmd} alt="hackmd" class="h-8 w-auto object-scale-down" />
 			</a>
 		</div>
 	</div>

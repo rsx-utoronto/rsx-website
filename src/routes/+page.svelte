@@ -24,6 +24,7 @@
 	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
 	import laifual from '$lib/assets/images/sponsors/laifual.png?enhanced';
 	import hakko from '$lib/assets/images/sponsors/hakko.png?enhanced';
+	import hackmd from '$lib/assets/images/sponsors/hackmd.png?enhanced';
 
 	import innovate from '$lib/assets/images/landing page/innovate.png?enhanced';
 	import educate from '$lib/assets/images/landing page/educate.png?enhanced';
@@ -367,6 +368,7 @@
 			<enhanced:img src={utias} alt="utias" class="h-14 w-auto object-scale-down" />
 			<enhanced:img src={laifual} alt="laifual" class="h-6 w-auto object-scale-down" />
 			<enhanced:img src={misumi} alt="misumi" class="h-8 w-auto object-scale-down" />
+			<enhanced:img src={hackmd} alt="hackmd" class="h-8 w-auto object-scale-down" />
 			<enhanced:img src={polymaker} alt="polymaker" class="h-11 w-auto object-scale-down" />
 			<enhanced:img src={pcbway} alt="pcbway" class="h-14 w-auto object-scale-down" />
 			<img src={digikey} alt="digikey" class="h-9 object-scale-down" />
