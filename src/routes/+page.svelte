@@ -350,7 +350,7 @@
 			<div class="border border-rsx-blue bg-rsx-blue/30 font-poly-mono text-white md:mt-10 md:mr-20">
 				<h2 class="px-4 pt-3 font-shapiro text-3xl font-bold uppercase">SEEK JR 2025</h2>
 				<p class="px-4 pt-2 pb-5 text-md font-shapiro opacity-60">
-					RSX SEEK Jr is a robotics competition for elementary school students, designed to introduce them to the world of robotics and STEM.
+					RSX SEEK Jr is a robotics competition for secondary school students, designed to introduce them to the world of robotics and STEM.
 				</p>
 				<div class="flex flex-row justify-end">
 					<button
