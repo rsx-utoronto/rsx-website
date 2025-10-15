@@ -34,6 +34,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import { onMount, onDestroy } from 'svelte';
 	import Icon from '@iconify/svelte';
+	import SeekJrOverlay from '$lib/components/SeekJrOverlay.svelte';
 
 	// Action to fit text within container width
 	function fitText(node: HTMLElement) {
@@ -260,6 +261,13 @@
 	// Toggle body scroll lock based on intro visibility (SSR-safe)
 	$: typeof document !== 'undefined' &&
 		(document.body.style.overflow = wordmarkVisible ? 'auto' : 'hidden');
+	let isSeekJrOpen = false;
+	function openSeekJr() {
+		isSeekJrOpen = true;
+	}
+	function closeSeekJr() {
+		isSeekJrOpen = false;
+	}
 </script>
 
 <svelte:window on:wheel|nonpassive={handleScroll} on:touchmove|nonpassive={handleScroll} />
@@ -339,7 +347,23 @@
 					<Icon icon="material-symbols:arrow-outward" class="mt-0.1 text-xl" />
 				</a> -->
 			</div>
+			<div class="border border-rsx-blue bg-rsx-blue/30 font-poly-mono text-white md:mt-10 md:mr-20">
+				<h2 class="px-4 pt-3 font-shapiro text-3xl font-bold uppercase">SEEK JR 2025</h2>
+				<p class="px-4 pt-2 pb-5 text-md font-shapiro opacity-60">
+					RSX SEEK Jr is a robotics competition for elementary school students, designed to introduce them to the world of robotics and STEM.
+				</p>
+				<div class="flex flex-row justify-end">
+					<button
+						on:click={openSeekJr}
+						class="flex flex-row items-center cursor-pointer justify-center gap-2 bg-white px-[2%] py-3 text-center font-poly-mono text-black hover:bg-rsx-blue hover:text-white md:px-[5%]"
+					>
+						<p class="">LEARN MORE & REGISTER</p>
+						<Icon icon="material-symbols:arrow-outward" class="mt-0.5 text-xl" />
+					</button>
+				</div>
+			</div>
 		</div>
+
 		<enhanced:img src={hero} alt="placeholder" class="mt-10 object-cover md:mt-0" />
 	</div>
 
@@ -443,3 +467,5 @@
 		</div>
 	</div>
 </main>
+
+<SeekJrOverlay open={isSeekJrOpen} onClose={closeSeekJr} />
