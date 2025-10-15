@@ -1,7 +1,7 @@
 <script lang="ts">
     import Icon from '@iconify/svelte';
-    import SeekHeader from '$lib/assets/images/landing page/seek-popup-header.png';
-    import SeekHeaderMobile from '$lib/assets/images/landing page/seek-popup-header-mobile.png';
+    import SeekHeader from '$lib/assets/images/landing page/seek-popup-header.png?enhanced';
+    import SeekHeaderMobile from '$lib/assets/images/landing page/seek-popup-header-mobile.png?enhanced';
 
 	export let open: boolean;
 	export let onClose: () => void;
@@ -33,8 +33,8 @@
 		<div class="w-full max-w-3xl border border-white bg-black text-white">
 			<div class="relative">
 				<picture>
-					<source srcset={SeekHeader} media="(min-width: 768px)" />
-					<img src={SeekHeaderMobile} alt="SEEK Jr header" class="block h-auto w-full" />
+					<enhanced:source srcset={SeekHeader} media="(min-width: 768px)" />
+					<enhanced:img src={SeekHeaderMobile} alt="SEEK Jr header" class="block h-auto w-full" />
 				</picture>
 				<div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-4 py-3 font-shapiro text-4xl uppercase">
 					<h1 class="font-shapiro font-bold">RSX SEEK JR</h1>
