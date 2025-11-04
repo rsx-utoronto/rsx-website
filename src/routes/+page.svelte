@@ -25,6 +25,7 @@
 	import laifual from '$lib/assets/images/sponsors/laifual.png?enhanced';
 	import hakko from '$lib/assets/images/sponsors/hakko.png?enhanced';
 	import hackmd from '$lib/assets/images/sponsors/hackmd.png?enhanced';
+	import hamamatsu from '$lib/assets/images/sponsors/hamamatsu.png?enhanced';
 
 	import innovate from '$lib/assets/images/landing page/innovate.png?enhanced';
 	import educate from '$lib/assets/images/landing page/educate.png?enhanced';
@@ -347,7 +348,7 @@
 					<Icon icon="material-symbols:arrow-outward" class="mt-0.1 text-xl" />
 				</a> -->
 			</div>
-			<div class="border border-rsx-blue bg-rsx-blue/30 font-poly-mono text-white md:mt-10 md:mr-20">
+			<!-- <div class="border border-rsx-blue bg-rsx-blue/30 font-poly-mono text-white md:mt-10 md:mr-20">
 				<h2 class="px-4 pt-3 font-shapiro text-3xl font-bold uppercase">SEEK JR 2025</h2>
 				<p class="px-4 pt-2 pb-5 text-md font-shapiro opacity-60">
 					RSX SEEK Jr is a robotics competition for secondary school students, designed to introduce them to the world of robotics and STEM.
@@ -361,7 +362,7 @@
 						<Icon icon="material-symbols:arrow-outward" class="mt-0.5 text-xl" />
 					</button>
 				</div>
-			</div>
+			</div> -->
 		</div>
 
 		<enhanced:img src={hero} alt="placeholder" class="mt-10 object-cover md:mt-0" />
@@ -398,6 +399,8 @@
 			<img src={digikey} alt="digikey" class="h-9 object-scale-down" />
 			<enhanced:img src={electromate} alt="electromate" class="h-16 w-auto object-scale-down" />
 			<enhanced:img src={hakko} alt="hakko" class="h-9 w-auto object-scale-down" />
+			<enhanced:img src={hamamatsu} alt="hamamatsu" class="h-7 w-auto object-scale-down" />
+			<p class="font-poly-mono uppercase max-w-60 leading-5 text-center">University of Toronto Skule Endowment Fund</p>
 		</div>
 		<hr class="" />
 	</div>

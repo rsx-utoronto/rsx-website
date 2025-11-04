@@ -26,6 +26,7 @@
 	import laifual from '$lib/assets/images/sponsors/laifual.png?enhanced';
 	import hakko from '$lib/assets/images/sponsors/hakko.png?enhanced';
 	import hackmd from '$lib/assets/images/sponsors/hackmd.png?enhanced';
+	import hamamatsu from '$lib/assets/images/sponsors/hamamatsu.png?enhanced';
 </script>
 
 <main class="mx-0 p-8 font-shapiro text-white md:mx-4 xl:mx-[3%] 2xl:mx-auto 2xl:max-w-350">
@@ -68,7 +69,7 @@
 	<div class="mt-16 flex flex-col gap-4 bg-white p-6 font-shapiro text-black">
 		<h3 class="text-3xl font-bold">PLATINUM TIER SPONSORS</h3>
 		<div
-			class="mx-auto flex flex-col items-center justify-between gap-4 *:object-contain md:flex-row md:flex-wrap md:gap-8"
+			class="mx-auto flex flex-col items-center justify-center gap-4 *:object-contain md:flex-row md:flex-wrap md:gap-8"
 		>
 			<a href="https://www.solidworks.com/" target="_blank" aria-label="SolidWorks Website">
 				<img src={solidworks} alt="solidworks" class="h-14 max-w-40 object-scale-down" />
@@ -102,6 +103,9 @@
 				aria-label="UofT EngSoc Website"
 			>
 				<enhanced:img src={engsoc} alt="engsoc" class="h-14 max-w-50 object-scale-down" />
+			</a>
+			<a href="https://skule.ca/finances/SEF.html" target="_blank" aria-label="Skule Endowment Fund Website">
+				<p class="font-poly-mono uppercase max-w-60 leading-5 text-center">University of Toronto Skule Endowment Fund</p>
 			</a>
 		</div>
 	</div>
@@ -154,6 +158,9 @@
 			</a>
 			<a href="https://hackmd.io" target="_blank" aria-label="HackMD Website">
 				<enhanced:img src={hackmd} alt="hackmd" class="h-8 w-auto object-scale-down" />
+			</a>
+			<a href="https://www.hamamatsu.com/us/en.html" target="_blank" aria-label="Hamamatsu Website">
+				<enhanced:img src={hamamatsu} alt="hamamatsu" class="h-7 w-auto object-scale-down" />
 			</a>
 		</div>
 	</div>
