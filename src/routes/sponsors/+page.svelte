@@ -19,7 +19,6 @@
 	import utias from '$lib/assets/images/sponsors/utias.png?enhanced';
 	import polymaker from '$lib/assets/images/sponsors/polymaker.png?enhanced';
 	import pcbway from '$lib/assets/images/sponsors/pcbway.png?enhanced';
-	import digikey from '$lib/assets/images/sponsors/digikey.svg';
 	import engsoc from '$lib/assets/images/sponsors/eng_soc.png?enhanced';
 	import misumi from '$lib/assets/images/sponsors/misumi.png?enhanced';
 	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
@@ -175,9 +174,6 @@
 			</a>
 			<a href="https://www.pcbway.com/" target="_blank" aria-label="PCBWay Website">
 				<enhanced:img src={pcbway} alt="pcbway" class="h-14 w-auto object-scale-down" />
-			</a>
-			<a href="https://www.digikey.ca/" target="_blank" aria-label="Digikey Website">
-				<img src={digikey} alt="digikey" class="h-9 object-scale-down" />
 			</a>
 			<a href="https://www.electromate.com/" target="_blank" aria-label="Electromate Website">
 				<enhanced:img src={electromate} alt="electromate" class="h-16 w-auto object-scale-down" />

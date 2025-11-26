@@ -18,7 +18,6 @@
 	import utias from '$lib/assets/images/sponsors/utias.png?enhanced';
 	import polymaker from '$lib/assets/images/sponsors/polymaker.png?enhanced';
 	import pcbway from '$lib/assets/images/sponsors/pcbway.png?enhanced';
-	import digikey from '$lib/assets/images/sponsors/digikey.svg';
 	import engsoc from '$lib/assets/images/sponsors/eng_soc.png?enhanced';
 	import misumi from '$lib/assets/images/sponsors/misumi.png?enhanced';
 	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
@@ -396,7 +395,6 @@
 			<enhanced:img src={hackmd} alt="hackmd" class="h-8 w-auto object-scale-down" />
 			<enhanced:img src={polymaker} alt="polymaker" class="h-11 w-auto object-scale-down" />
 			<enhanced:img src={pcbway} alt="pcbway" class="h-14 w-auto object-scale-down" />
-			<img src={digikey} alt="digikey" class="h-9 object-scale-down" />
 			<enhanced:img src={electromate} alt="electromate" class="h-16 w-auto object-scale-down" />
 			<enhanced:img src={hakko} alt="hakko" class="h-9 w-auto object-scale-down" />
 			<enhanced:img src={hamamatsu} alt="hamamatsu" class="h-7 w-auto object-scale-down" />
