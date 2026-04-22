@@ -17,7 +17,7 @@
 	import talmolder from '$lib/assets/images/sponsors/talmolder.png?enhanced';
 	import utias from '$lib/assets/images/sponsors/utias.png?enhanced';
 	import polymaker from '$lib/assets/images/sponsors/polymaker.png?enhanced';
-	import pcbway from '$lib/assets/images/sponsors/pcbway.png?enhanced';
+	import jlcpcb from '$lib/assets/images/sponsors/jlcpcb.png?enhanced';
 	import engsoc from '$lib/assets/images/sponsors/eng_soc.png?enhanced';
 	import misumi from '$lib/assets/images/sponsors/misumi.png?enhanced';
 	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
@@ -394,7 +394,7 @@
 			<enhanced:img src={misumi} alt="misumi" class="h-8 w-auto object-scale-down" />
 			<enhanced:img src={hackmd} alt="hackmd" class="h-8 w-auto object-scale-down" />
 			<enhanced:img src={polymaker} alt="polymaker" class="h-11 w-auto object-scale-down" />
-			<enhanced:img src={pcbway} alt="pcbway" class="h-14 w-auto object-scale-down" />
+			<enhanced:img src={jlcpcb} alt="jlcpcb" class="h-14 w-auto object-scale-down" />
 			<enhanced:img src={electromate} alt="electromate" class="h-16 w-auto object-scale-down" />
 			<enhanced:img src={hakko} alt="hakko" class="h-9 w-auto object-scale-down" />
 			<enhanced:img src={hamamatsu} alt="hamamatsu" class="h-7 w-auto object-scale-down" />

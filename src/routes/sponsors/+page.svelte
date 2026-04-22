@@ -18,7 +18,7 @@
 	import talmolder from '$lib/assets/images/sponsors/talmolder.png?enhanced';
 	import utias from '$lib/assets/images/sponsors/utias.png?enhanced';
 	import polymaker from '$lib/assets/images/sponsors/polymaker.png?enhanced';
-	import pcbway from '$lib/assets/images/sponsors/pcbway.png?enhanced';
+	import jlcpcb from '$lib/assets/images/sponsors/jlcpcb.png?enhanced';
 	import engsoc from '$lib/assets/images/sponsors/eng_soc.png?enhanced';
 	import misumi from '$lib/assets/images/sponsors/misumi.png?enhanced';
 	import electromate from '$lib/assets/images/sponsors/electromate.png?enhanced';
@@ -172,8 +172,8 @@
 			<a href="https://www.polymaker.com/" target="_blank" aria-label="Polymaker Website">
 				<enhanced:img src={polymaker} alt="polymaker" class="h-11 w-auto object-scale-down" />
 			</a>
-			<a href="https://www.pcbway.com/" target="_blank" aria-label="PCBWay Website">
-				<enhanced:img src={pcbway} alt="pcbway" class="h-14 w-auto object-scale-down" />
+			<a href="https://jlcpcb.com/" target="_blank" aria-label="JLCPCB Website">
+				<enhanced:img src={jlcpcb} alt="jlcpcb" class="h-14 w-auto object-scale-down" />
 			</a>
 			<a href="https://www.electromate.com/" target="_blank" aria-label="Electromate Website">
 				<enhanced:img src={electromate} alt="electromate" class="h-16 w-auto object-scale-down" />
