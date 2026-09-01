@@ -1,6 +1,8 @@
 import posthog from 'posthog-js';
 import { browser } from '$app/environment';
-import { onMount } from 'svelte';
+
+// Fully static site (GitHub Pages) — every route is prerendered at build time.
+export const prerender = true;
 
 export const load = async () => {
 	if (browser) {

@@ -1,8 +1,18 @@
 <script>
 	import Icon from '@iconify/svelte';
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
+	import { browser } from '$app/environment';
 
-	$: isSuccess = $page.url.searchParams.get('success') === 'true';
+	// The page is prerendered, so the query string is only readable after hydration.
+	$: isSuccess = browser && $page.url.searchParams.get('success') === 'true';
+
+	// formsubmit.co redirects here after a submission. Resolve it against whatever host is
+	// actually serving the page (GitHub Pages, localhost, rsx.skule.ca) instead of hardcoding
+	// one domain; the no-JS fallback keeps the previous behaviour.
+	$: nextUrl = browser
+		? `${$page.url.origin}${base}/contact?success=true`
+		: 'https://rsx.skule.ca/contact?success=true';
 </script>
 
 <main class="max-w-screen p-8 font-shapiro text-white md:mx-4 xl:mx-[3%] 2xl:mx-auto 2xl:max-w-350">
@@ -16,7 +26,7 @@
 					<h3 class="text-2xl font-bold uppercase">Message Sent</h3>
 					<p class="md:text-lg">Thanks for reaching out. We'll get back to you soon.</p>
 					<a
-						href="/contact"
+						href="{base}/contact"
 						class="w-full border border-rsx-teal bg-rsx-teal/20 px-4 py-3 font-poly-mono text-white uppercase transition-colors hover:bg-rsx-teal hover:text-black md:w-auto"
 					>
 						Send Another Message
@@ -87,8 +97,7 @@
 						</div>
 
 						<input type="hidden" name="_subject" value="RSX Contact Form Submission" />
-						<input type="hidden" name="_next" value="https://rsx.skule.ca/contact?success=true" />
-						<!-- temp address while dns is being updated-->
+						<input type="hidden" name="_next" value={nextUrl} />
 
 						<button
 							type="submit"
